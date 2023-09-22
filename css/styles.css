@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+h1 {
+  margin-right: auto;
+  margin-left: 100px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#main-btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(26, 71, 249);
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-right: 200px;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: rgb(23, 17, 70);
+}
+
+.text-white {
+  color: white;
+}
+
+.first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.column-2 {
+  align-items: center;
+  width: 250px;
+}
+
+#main-image {
+  width: 300px;
+  margin-left: 160px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+}
+
+.sq {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.third-section {
+  height: 50vh;
+  background-color: rgb(242, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signature {
+  align-self: flex-end;
+  font-weight: 900;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+blockquote {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.fourth-section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-area {
+  background-color: rgb(95, 152, 228);
+  width: 800px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-btn {
+  margin-left: 100px;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+footer {
+  height: 65px;
+  background-color: rgb(29, 28, 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
